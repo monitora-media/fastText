@@ -15,12 +15,12 @@ import multiprocessing
 from itertools import chain
 from fasttext.util.util import _check_copy_if_needed
 
-copy_if_needed = _check_copy_if_needed()
 loss_name = fasttext.loss_name
 model_name = fasttext.model_name
 EOS = "</s>"
 BOW = "<"
 EOW = ">"
+copy_if_needed = _check_copy_if_needed()
 
 displayed_errors = {}
 

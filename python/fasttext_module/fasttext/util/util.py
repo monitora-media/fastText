@@ -224,5 +224,4 @@ def _check_copy_if_needed():
             copy_if_needed = None
         except TypeError:
             copy_if_needed = False
-
     return copy_if_needed
